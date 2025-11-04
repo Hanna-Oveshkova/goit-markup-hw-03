@@ -118,14 +118,14 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 530px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0 292px;
+  padding: 188px 0 188px;
 }
 
 .input-hero {
@@ -140,6 +140,9 @@ img {
   margin: 0 auto 188px;
   border-radius: 4px;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .input-hero:hover,
@@ -178,7 +181,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -191,6 +194,7 @@ img {
 }
 .time {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .time-list {
@@ -199,6 +203,7 @@ img {
 }
 
 .time-item {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   width: calc((100%-72px) / 3);
 }
@@ -210,9 +215,11 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding: 120px 0 72px;
+  margin-bottom: 72px;
 }
-
+.time-name-profession {
+  padding: 32px 0;
+}
 .time-name {
   font-weight: 500;
   font-size: 20px;
@@ -220,7 +227,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 32px 0 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .time-profession {
@@ -229,9 +237,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 32px;
 }
 
+.portfolio {
+  padding: 120px 0;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -240,22 +250,28 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding: 120px 0 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
+.service-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-service {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 32px 0 8px 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -263,7 +279,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0 0 32px 16px;
 }
 
 .page-footer {
